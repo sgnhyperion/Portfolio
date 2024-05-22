@@ -13,14 +13,14 @@ function About() {
     <section id="About">
       {/* <h1>About</h1> */}
       <div className="about1">
-        <div className="img-container">
+        {/* <div className="img-container">
           <img
             src="https://i.ibb.co/MspM1xh/myPhoto.png"
             alt="my photo"
             height="350px"
             width="298.31px"
           ></img>
-        </div>
+        </div> */}
 
         <div id="bio">
           <h2> 👋 Hey there</h2>
