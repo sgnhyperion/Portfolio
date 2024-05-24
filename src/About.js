@@ -13,17 +13,8 @@ function About() {
     <section id="About">
       {/* <h1>About</h1> */}
       <div className="about1">
-        {/* <div className="img-container">
-          <img
-            src="https://i.ibb.co/MspM1xh/myPhoto.png"
-            alt="my photo"
-            height="350px"
-            width="298.31px"
-          ></img>
-        </div> */}
-
         <div id="bio">
-          <h2> 👋 Hey there</h2>
+          <h2> 👋 Hey there </h2>
           <p>
             I'm Harsh, a passionate software developer. I specialize in Web
             Development, crafting seamless user experiences and robust backend
