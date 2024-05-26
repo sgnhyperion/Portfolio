@@ -4,14 +4,14 @@ import './Navbar.css';
 function Navbar(){
     return(
         <div className="navbar">
-            <span id="name">Harsh Kumar &lt;/&gt;</span>
+            <span id="name"> Harsh Kumar &lt;/&gt;</span>
             <nav className="sections" >
                 <Section sec="/" text = "Home" />
                 <Section sec="/About" text = "About" />
                 <Section sec="/Skills" text = "Skills" />
                 <Section sec="/Projects" text = "Projects" />
                 <Section sec="/contacts" text = "Contact" />
-                <a href="https://drive.google.com/file/d/12OriX6OQLTtdhI0bSTPYfGY9ZsWweSkP/view?usp=sharing" target="_blank" rel="noreferrer" id="resume">Resume</a>
+                <a href= "https://drive.google.com/file/d/12OriX6OQLTtdhI0bSTPYfGY9ZsWweSkP/view?usp=sharing" target="_blank" rel="noreferrer" id="resume">Resume</a>
             </nav>
         </div>
     );

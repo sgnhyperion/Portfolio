@@ -114,6 +114,10 @@ h2{
     background: #12cbd8;
 }
 
+#interests-heading:hover{
+    color: #90ff64;
+}
+
 #interests-heading:hover::after{
     font-weight: 1000;
     width: 100%;
