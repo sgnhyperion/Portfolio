@@ -2,7 +2,7 @@ import Project from "./Project";
 
 function Projects(){
     return(
-        <section>
+        <section id="Projects">
             <Project projectLink="https://github.com/sgnhyperion/ImageEditorproject" text="Image Editor" link="https://cdn.shopify.com/s/files/1/0070/7032/files/Pixlr_ef222ae9-970b-4bc7-a1fb-1fbfdcb6dffe.jpg?v=1596191878"/>
 
             <Project projectLink="https://sgnhyperion.github.io/MineSweeper/" text="Mine Sweeper" link="https://store-images.s-microsoft.com/image/apps.17472.9007199266246757.db625ec8-a024-470e-a413-924515c64b2c.316a1f72-e9d9-447b-8f0d-80b37c07d480?mode=scale&q=90&h=1080&w=1920" />

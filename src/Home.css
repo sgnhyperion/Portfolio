@@ -1,0 +1,43 @@
+#Home{
+    height:100vh;
+    width:100vw;
+    /* margin:0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeImg{
+    border-radius: 50%;
+    background-color: #0c112e;
+    opacity: 1;
+    display: inline;
+}
+
+#hi{
+    color: #64FFDA;
+    font-family:Arial;
+    /* line-height: 1.33; */
+    font-weight: 1000;
+    font-size: 1.875rem;
+}
+
+/* @font-face {
+    font-family: 'Viga';
+    src: url("https://fonts.googleapis.com/css2?family=Viga&display=swap") format('truetype');
+} */
+#myname{
+    font-size: 59.2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow:5px 5px 10px #142bac57;
+}
+
+#iamawesome{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+#awesome{
+    color: #00f201;
+}
+

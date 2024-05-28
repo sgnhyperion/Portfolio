@@ -1,3 +1,5 @@
+import './Section.css'
+
 function Section({text,sec}){
     return (
         <span class="section">

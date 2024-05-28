@@ -1,17 +1,17 @@
-import Info from "./Info";
+// import Info from "./Info";
 import Socials from "./Socials";
+import './Home.css'
 
 function Home(){
     return(
         <section id="Home">
-            <h1>Home</h1>
-            <img id="homeImg" src="https://vaheedshaik.tech/images/ar-profile-transformed.png" alt="Image logo" width="300" height="300"></img>
+            <img id="homeImg" src="https://vaheedshaik.tech/images/ar-profile-transformed.png" alt="Image logo" width="250" height="250"></img>
             <br></br>
-            <Info text="Hi,my name is" />
+            <h2 id="hi">Hi, my name is </h2>
             <br></br>
-            <Info text="HARSH KUMAR" />
+            <h1 id="myname">HARSH KUMAR</h1>
             <br></br>
-            <Info text="I am Awesome" />
+            <div id="iamawesome"><span id="iam">I am</span> <span id="awesome">Awesome</span></div>
             <br></br>
             <Socials />
         </section>    
