@@ -4,12 +4,12 @@ function Navbar(){
     return(
         <div>
             <span>Harsh Kumar</span>
-            <Section Sectionlink="#Home" text = "Home" />
-            <Section Sectionlink="#About" text = "About" />
-            <Section Sectionlink="#Skills" text = "Skills" />
-            <Section Sectionlink="#Projects" text = "Projects" />
-            <Section Sectionlink="#Contacts" text = "Contact" />
-            <Section Sectionlink="#Resume" text = "Resume" />
+            <Section sec="#Home" text = "Home" />
+            <Section sec="#About" text = "About" />
+            <Section sec="#Skills" text = "Skills" />
+            <Section sec="#Projects" text = "Projects" />
+            <Section sec="#Contacts" text = "Contact" />
+            <Section sec="#Resume" text = "Resume" />
         </div>
     );
 }

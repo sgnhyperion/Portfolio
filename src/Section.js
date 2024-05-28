@@ -1,7 +1,7 @@
-function Section({text}){
+function Section({text,sec}){
     return (
         <span class="section">
-            <a href="#">{text}</a>
+            <a href={sec}>{text}</a>
         </span>
     );
 }
