@@ -45,7 +45,7 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  background-color: #07001f;
+  background-color: #07001ff6;
   /* padding-left: 40px;
   padding-right: 40px; */
   /* width:100vw; */
@@ -55,4 +55,6 @@
 a{
   cursor: pointer;
 }
+
+
 

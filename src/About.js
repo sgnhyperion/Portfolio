@@ -7,6 +7,7 @@ function About(){
         <section id="About">
             {/* <h1>About</h1> */}
             <div className="about1">
+                
 
             <span><img src="https://images.immediate.co.uk/production/volatile/sites/3/2020/09/the-batman-robert-pattinson-1-ac6949e-e1646825975650.jpg?quality=90&webp=true&resize=618,412" alt="my photo" height="250px" width="250px"></img></span>
             
