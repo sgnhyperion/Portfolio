@@ -44,7 +44,7 @@ h2{
 
 .interests{
     display:flex;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     /* background-color: rgba(220, 245, 235, 0.521); */
@@ -52,9 +52,9 @@ h2{
     height:20vh;
     color: black;
 }
-#interest{
-    height: 100px;
-    width: 260px;
+#interest-container{
+    height: 110px;
+    width: 300px;
     background-color: #161a41;
     display: flex;
     align-items: center;
@@ -66,16 +66,21 @@ h2{
     color: white;
     /* border : 1px solid #161a41; */
     z-index: 2;
+    border-radius: 10px;
 }
 
 #icon{
     font-size: 2rem;
     color: #64FFDA;
-    transform: translate(100%);
+    transform: translate(0%);
     z-index: 3;
 }
+#interest-container:hover #icon{
+    transform: rotate(30deg);
+    transition: 0.3s;
+}
 
-#interest:hover{
+#interest-container:hover{
     background-color: #006989;
     color: #161a41;
     /* border : 1px solid #64FFDA; */
@@ -100,12 +105,13 @@ h2{
 
 #interests-heading::after{
     content: "";
-    height: 1px;
+    height: 1.5px;
     width:0px;
-    background: #64f5ffad;
+    background: #12cbd8;
 }
 
 #interests-heading:hover::after{
+    font-weight: 1000;
     width: 100px;
     transition: 0.3s;
 }
