@@ -11,7 +11,7 @@ function Navbar(){
                 <Section sec="/Skills" text = "Skills" />
                 <Section sec="/Projects" text = "Projects" />
                 <Section sec="/contacts" text = "Contact" />
-                <Section sec="/Resume" text = "Resume" />
+                <a href="https://drive.google.com/file/d/12OriX6OQLTtdhI0bSTPYfGY9ZsWweSkP/view?usp=sharing" target="_blank" rel="noreferrer" id="resume">Resume</a>
             </nav>
         </div>
     );

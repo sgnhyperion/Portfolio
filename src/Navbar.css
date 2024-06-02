@@ -11,6 +11,7 @@
     position: absolute;
     top:0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 100;
 }
 .sections{
     display: flex;
@@ -26,5 +27,34 @@
     font-size: larger;
     font:inter,sans-serif;
     font-weight: bolder;
+}
+
+#resume{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#resume:hover{
+    display: block;
+    width: 100%;
+    height: 1px;
+    color: #00f1d1; 
+    transition: width 0.3s ease-in-out;
+    margin-top: 5px;
+}
+
+#resume::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #00f1d1; 
+}
+
+#resume:hover::after{
+    width: 100%;
+    transition: 0.3s ease;
+    border-radius: 20%;
 }
 

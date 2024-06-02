@@ -1,6 +1,9 @@
+import './Skill.css';
+
+
 function Skill({text}){
     return(
-        <div>
+        <div className='skill'>
             {text}
         </div>
     ); 

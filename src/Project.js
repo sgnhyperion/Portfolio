@@ -1,8 +1,10 @@
+import './Project.css';
+
 function Project({text,projectLink,link}){  
     return(
-        <div>
+        <div className="project-container">
             <h3>{text}</h3>
-            <a href={projectLink}><img src = {link} alt="text" /></a>
+            <a href={projectLink}><img src = {link} alt="text"/></a>
         </div>
     )
 }

@@ -1,0 +1,12 @@
+.project-container img{
+    /* border-radius: 10%; */
+    height: 230px;
+    width: 400px;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
