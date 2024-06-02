@@ -1,43 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Navbar';
-import Home from './Home';
-import About from './About';
-import Skills from './Skills';
-import Projects from './Projects.js';
-import Contacts from './Contacts.js';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// import ParticlesBackground from './ParticlesBackground.js';
+import "./App.css";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import About from "./About";
+import Skills from "./Skills";
+import Projects from "./Projects.js";
+import Contacts from "./Contacts.js";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import FireflyEffect from "./FireflyEffect.jsx";
+
 
 function App() {
+  
+ 
   return (
-
-
     <Router>
-    <div className="App">
+      <div className="App">
+      <FireflyEffect />
         <div class="Container">
-        <Navbar />
-        <br></br>
-        {/* <Home />
-        <br></br>
-        <About />
-        <br></br>
-        <Skills />
-        <br></br>
-        <Projects />
-        <br></br>
-        <Contacts /> */}
+          {/* <video autoPlay loop muted id="myVideo">
+            <source src={require("./particles.mp4")} type='video/mp4'></source>
+        </video> */}
+          <Navbar />
+          <br></br>
 
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/About" element={<About />} />
-                <Route path="/Skills" element={<Skills />} />
-                <Route path="/Projects" element={<Projects />}/>
-                <Route path="/Contacts" element={<Contacts />}/>
-            </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Skills" element={<Skills />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Contacts" element={<Contacts />} />
+          </Routes>
+        </div>
       </div>
-    </div>
-        </Router>
+    </Router>
   );
 }
 

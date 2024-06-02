@@ -1,6 +1,10 @@
+import './Interest.css';
+
 function Interest({text}){
     return(
-        <div>{text}</div>
+        <div id='interest'>
+            <div id='text'>{text}</div>
+        </div>
     );
 }
 

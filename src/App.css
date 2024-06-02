@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: rgb(7, 7, 70); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,6 +40,8 @@
 }
 *{
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 .Container{
@@ -45,16 +49,32 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  background-color: #07001ff6;
+  height: 100vh;
+  background-color:  #000;
+  /* background-color: rgba(0, 0, 0, -1); */
   /* padding-left: 40px;
   padding-right: 40px; */
   /* width:100vw; */
-  color:aliceblue
+  z-index: 2;
+  color:white;
 }
 
 a{
   cursor: pointer;
 }
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
 
 
 

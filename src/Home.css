@@ -6,11 +6,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    /* background-color: #063142d5; */
+    /* top:9vh; */
 }
 
 #homeImg{
     border-radius: 50%;
-    background-color: #0c112e;
+    background-color: #0c1c2e;
     opacity: 1;
     display: inline;
 }
@@ -21,6 +24,7 @@
     /* line-height: 1.33; */
     font-weight: 1000;
     font-size: 1.875rem;
+    margin: 0;
 }
 
 /* @font-face {
@@ -30,7 +34,8 @@
 #myname{
     font-size: 59.2px;
     font-family:"Viga", sans-serif;
-    box-shadow:5px 5px 10px #142bac57;
+    /* box-shadow:5px 5px 10px #142bac57; */
+    margin: 0;
 }
 
 #iamawesome{

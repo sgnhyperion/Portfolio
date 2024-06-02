@@ -1,16 +1,110 @@
 #About{
+    height:100vh;
+    width:100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top:40px;
+    /* background-color: #0d47a1; */
+    ;
 }
 
 .about1{
+    width:100vw;
     display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
     
 }
 
 #bio{
     display:flex;
     flex-direction: column;
+    height: 350px;
+    width: 60vw;
+    justify-content: center;
+    gap:100px;
+}
+
+#bio p{
+    font-size: 1.3rem;
+    font-family: 'inter,sans-serif';
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-weight: 1000;  */
+    /* color: #64FFDA; */
+}
+h2{
+    font-size: 2.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700; 
+    color: #64ffdbb6;
+}
+
+.interests{
+    display:flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(220, 245, 235, 0.521); */
+    width:100%;
+    height:20vh;
+    color: black;
+}
+#interest{
+    height: 100px;
+    width: 260px;
+    background-color: #161a41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    /* border : 1px solid #161a41; */
+    z-index: 2;
+}
+
+#icon{
+    font-size: 2rem;
+    color: #64FFDA;
+    transform: translate(100%);
+    z-index: 3;
+}
+
+#interest:hover{
+    background-color: #006989;
+    color: #161a41;
+    /* border : 1px solid #64FFDA; */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#interests-heading{
+    z-index: 20;
+    /* background-color: #161a41; */
+    font-size: 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700; 
+    color: white;
+    text-transform: uppercase;
+    transform: translate(-750%, 350%);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+#interests-heading::after{
+    content: "";
+    height: 1px;
+    width:0px;
+    background: #64f5ffad;
+}
+
+#interests-heading:hover::after{
+    width: 100px;
+    transition: 0.3s;
 }

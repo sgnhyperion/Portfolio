@@ -8,12 +8,9 @@ function Home(){
 
     return(
         <section id="Home">
-            <img id="homeImg" src="https://vaheedshaik.tech/images/ar-profile-transformed.png" alt="Image logo" width="250" height="250"></img>
-            <br></br>
+            <img id="homeImg" src="https://pics.craiyon.com/2023-10-28/22528cc76e05479c8a48718f47a2de23.webp" alt="Image logo" width="250" height="250"></img>
             <h2 id="hi">Hi, my name is </h2>
-            <br></br>
-            <h1 id="myname">HARSH KUMAR</h1>
-            <br></br>
+            <h1 id="myname">HARSH KUMAR SINGH</h1>
             <div>
             <Typewriter text={[
                 "Awesome",
@@ -24,9 +21,7 @@ function Home(){
                 deletingSpeed={50}
                 duration={1000}
                 />
-                <br></br>
             </div>
-            <br></br>
             <Socials />
         </section>    
     );
