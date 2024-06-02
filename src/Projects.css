@@ -1,13 +1,23 @@
 .Projects{
-    z-index: 50;
-    width: 80%;
+    z-index: 10;
+    width: 100%;
     height: 100%;
     /* padding: 80px; */
+    /* transform: translate(0,0 ); */
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(360deg,#1e2144f1, #0f1014d2);
+}
+
+.projects-parent{
+    height:80%;
+    width:80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap:1rem;
-    transform: translate(0, 5%);
-    /* flex-direction: column; */
+    transform: translate(5%);
 }

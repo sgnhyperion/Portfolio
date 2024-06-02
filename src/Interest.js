@@ -1,5 +1,3 @@
-import './Interest.css';
-
 function Interest({text}){
     return(
         <div id='interest'>

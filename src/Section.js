@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Section({text,sec}){
     return (
-        <span class="section">
+        <span className="section">
             <Link to={sec} id='link'>{text}</Link>
         </span>
     );
