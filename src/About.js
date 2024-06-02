@@ -1,7 +1,6 @@
 // import Info from "./Info";
 import Interest from "./Interest";
 import "./About.css";
-import myPhoto from "/home/hyperion/Berserk/React/portfolio1/src/myPhoto.png"
 import { TbBracketsAngleOff } from "react-icons/tb";
 import { GiMaterialsScience } from "react-icons/gi";
 import { GiSpaceSuit } from "react-icons/gi";
@@ -21,7 +20,7 @@ function About() {
       <div className="about1">
         <div className="img-container">
           <img
-            src={myPhoto}
+            src="https://i.ibb.co/MspM1xh/myPhoto.png"
             alt="my photo"
             height="350px"
             width="298.31px"
