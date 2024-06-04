@@ -14,7 +14,7 @@ function About() {
       {/* <h1>About</h1> */}
       <div className="about1">
         <div id="bio">
-          <h2> 👋 Hey there </h2>
+          <h2> <span class="wave-hand">👋</span> Hey there </h2>
           <p>
             I'm Harsh, a passionate software developer. I specialize in Web
             Development, crafting seamless user experiences and robust backend

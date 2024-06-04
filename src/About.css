@@ -25,14 +25,17 @@
     height: 350px;
     width: 60vw;
     justify-content: center;
-    gap:100px;
+    gap:40px;
 }
 
 #bio p{
     font-size: 1.3rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(240, 248, 255, 0.808);
-    background-color: #161a4117;
+    padding: 50px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 50px #012355;
+    /* background-color: #161a4117; */
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     /* font-weight: 1000;  */
     /* color: #64FFDA; */
@@ -43,6 +46,23 @@ h2{
     font-weight: 700; 
     color: #64ffdbb6;
 }
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .wave-hand {
+    display: inline-block;
+    animation: wave 2s infinite;
+    transform-origin: 70% 70%; 
+  }
 
 .interests{
     display:flex;

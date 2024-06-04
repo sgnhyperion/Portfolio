@@ -1,7 +1,8 @@
 .project-container img{
-    height: 200px;
+    height: 100px;
     width: 250px;
     z-index: 20;
+    border-radius: 10px;
 }
 
 .project-container{
@@ -16,9 +17,11 @@
 
 
 
-    height: 250px;
-    width: 300px;
-    background: linear-gradient(rgba(38, 54, 68, 0.788), rgba(38, 59, 52, 0.877));
+    height: 100px;
+    width: 350px;
+    /* background: linear-gradient(rgba(38, 54, 68, 0), rgba(38, 59, 52, 0.877)); */
+    border:1px solid #64FFDA;
+    box-shadow: 0px 0px 30px #012355;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +30,8 @@
     text-align: center;
     /* border : 1px solid #161a41; */
     z-index: 10;
-    border-radius: 10px;
+    padding: 20px;
+    /* border-radius: 10px; */
 
 }
 
@@ -60,36 +64,6 @@
 .project-container:hover h3{
     color:#64dbff71;
     transition: 0.3s;
-}
-
-.project-container::after{
-    height: 0px;
-    width:0px;
-    display: none;
-    transform: translate(0,200%);
-    display: block;
-    /* background: #12cbd8; */
-}
-
-.project-container:hover::after{
-    content: "Click to view more details";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 90;
-    position: absolute;
-    width: 10vw;
-    height: 5vh;
-    background: #032e36d5;
-    color: #018f4d;
-    
-    /* transition: 0.05s; */
-    border-radius: 40px;
-    /* transform: translate(0,300%); */
-    margin-top: 5rem;
-    box-shadow: 0px 0px 30px #162b3b;
-    /* transform: rotate(30deg); */
-    /* scale:1.3; */
 }
 
 

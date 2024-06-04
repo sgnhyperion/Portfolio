@@ -8,6 +8,7 @@ import Contacts from "./Contacts.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useEffect } from "react";
 import FireflyEffect from "./FireflyEffect.jsx";
+// import { motion } from "framer-motion"
 
 
 function App() {

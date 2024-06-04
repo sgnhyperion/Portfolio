@@ -6,22 +6,22 @@ function Projects() {
         {
             projectLink:"https://github.com/sgnhyperion/ImageEditorproject",
             text:"Image Editor",
-            link:"https://cdn.shopify.com/s/files/1/0070/7032/files/Pixlr_ef222ae9-970b-4bc7-a1fb-1fbfdcb6dffe.jpg?v=1596191878"
+            link:"https://t3.ftcdn.net/jpg/06/06/79/70/360_F_606797008_rGPPk6bFWDQydnX7g7w1w9dVVZ4mD22J.jpg"
         },
         {
             projectLink:"https://sgnhyperion.github.io/MineSweeper/",
             text:"Mine Sweeper",
-            link:"https://store-images.s-microsoft.com/image/apps.17472.9007199266246757.db625ec8-a024-470e-a413-924515c64b2c.316a1f72-e9d9-447b-8f0d-80b37c07d480?mode=scale&q=90&h=1080&w=1920"
+            link:"https://cdn.dribbble.com/userupload/12488481/file/original-caa3cce133f087293f8673eec3753f3f.jpeg?crop=0x347-1216x1259&resize=400x300&vertical=center"
         },
         {
             projectLink:"https://sgnhyperion.github.io/Scaler_social/",
             text:"Social App",
-            link:"https://www.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png"
+            link:"https://media.licdn.com/dms/image/D5612AQGWFgfL-CAOPQ/article-cover_image-shrink_720_1280/0/1713469794627?e=2147483647&v=beta&t=3U6uc7SAzRatjUZvCVt3n4mSFnyvriY5AsrPUE3EOX0"
         },
         {
             projectLink:"https://github.com/sgnhyperion/TicTacToe",
             text:"Tic Tac Toe",
-            link:"https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU=w240-h480-rw"
+            link:"https://codewithfaraz.com/img/build%20your%20own%20tic%20tac%20toe%20game%20with%20html,%20css,%20and%20javascript.jpg"
         },
         {
             projectLink:"https://github.com/sgnhyperion/LBMS",
@@ -41,13 +41,14 @@ function Projects() {
         {
             projectLink:"https://portfolio-ruddy-gamma-10.vercel.app/",
             text:"Portfolio",
-            link:"https://www.swic.edu/wp-content/uploads/2021/05/portfolio-2048x1224.png"
+            link:"https://media.darkstar-digital.com/wp-content/uploads/2017/03/18161012/portfolio.jpg.webp"
         }
     ]
 
 
   return (
     <section className="Projects">
+        <p id="projects-heading">Recent Projects</p>
       <div className="projects-parent">
         {projects.map((project)=>{
                 return <Project text={project.text} projectLink={project.projectLink} link={project.link} />
