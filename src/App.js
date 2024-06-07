@@ -19,9 +19,6 @@ function App() {
       <div className="App">
       <FireflyEffect />
         <div class="Container">
-          {/* <video autoPlay loop muted id="myVideo">
-            <source src={require("./particles.mp4")} type='video/mp4'></source>
-        </video> */}
           <Navbar />
           <br></br>
 
