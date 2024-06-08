@@ -23,8 +23,8 @@ function Project({text,projectLink,link}){
     return(
         <div className="project-container" /*ref={divRef} onMouseOver={showDetails} onMouseLeave={removeDetails}*/>
             {/* <h3>{text}</h3> */}
-            {/*<a href={projectLink} target="_blank">*/}
-            <img src = {link} alt="text" loading='lazy'/>{/*</a>*/}
+            <a href={projectLink} target="_blank">
+            <img src = {link} alt="text" loading='lazy'/></a>
         </div>
     )
 }
