@@ -63,14 +63,15 @@
     /* opacity: 0.2; */
 }
 
-/* .project-container::after{
+.project-container::after{
     content:"";
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
     width: 0;
-    background-color: #00698900;
+    /* background-color: #00698900; */
     color:#04f86a;
     text-align: center;
+    transform: translate(0,330%);
 }
 
 .project-container:hover::after{
@@ -78,10 +79,10 @@
     display: flex;
     justify-content: center;
     width: 370px;
-    background-color: #00698948;
-    font-size: 1.5rem;
+    /* background-color: #00698948; */
+    font-size: 1.3rem;
     font-weight: 700;
-} */
+}
 
 .project-container:hover h3{
     color:#64dbff71;
