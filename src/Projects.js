@@ -1,5 +1,6 @@
 import Project from "./Project";
 import "./Projects.css";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
     let projects = [
@@ -48,6 +49,7 @@ function Projects() {
 
   return (
     <section className="Projects">
+        <ProjectCard />
         <p id="projects-heading">Recent Projects</p>
       <div className="projects-parent">
         {projects.map((project)=>{

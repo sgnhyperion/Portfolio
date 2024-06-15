@@ -1,0 +1,12 @@
+.project-card{
+    position: absolute;
+    /* transform: translate(0,10%); */
+    height: 60%;
+    width: 20%;
+    border: 1px solid #64FFDA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}

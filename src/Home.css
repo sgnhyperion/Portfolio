@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
 #Home{
     height:100vh;
     width:100vw;
@@ -32,14 +35,16 @@
     src: url("https://fonts.googleapis.com/css2?family=Viga&display=swap") format('truetype');
 } */
 #myname{
-    font-size: 59.2px;
-    font-family:"Viga", sans-serif;
+    font-size: 500%;
+    font-family:"VT323", monospace;
+    /* font-weight: 1000; */
     /* box-shadow:5px 5px 10px #142bac57; */
     margin: 0;
 }
 
 #iamawesome{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: "Kanit", sans-serif; */
     font-size: 2.5rem;
 }
 #awesome{
