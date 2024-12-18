@@ -28,10 +28,10 @@ function Projects() {
       link: "https://github.com/sgnhyperion/LBMS",
     },
     {
-      title: "Quiz App",
-      description: "A quiz app for testing and improving knowledge.",
-      image: "https://viralsolutions.net/wp-content/uploads/2019/06/shutterstock_749036344.jpg",
-      link: "https://github.com/sgnhyperion/QuizApp",
+      title: "Map Tales",
+      description: "A map that tells stories where we can pin places and add notes, built in MERN.",
+      image: "https://imageio.forbes.com/blogs-images/trevornace/files/2015/11/beautiful-places-world-1200x900.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      link: "https://map-tales-frontend.vercel.app/",
     },
   ];
 
