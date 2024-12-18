@@ -14,9 +14,9 @@ import { ImTerminal } from "react-icons/im";
 import { TbBrandVscode } from "react-icons/tb";
 import { FaFistRaised } from "react-icons/fa";
 import { GiSpiderWeb } from "react-icons/gi";
-
-
-
+import { SiMongodb } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
 
 function Skills() {
   return (
@@ -86,6 +86,21 @@ function Skills() {
         <div className="skill-board">
         <GiSpiderWeb id="skill-icon"/>
           <Skill text="Web Scraping" />
+        </div>
+
+        <div className="skill-board">
+        <SiExpress id="skill-icon"/>
+          <Skill text="ExpressJs" />
+        </div>
+
+        <div className="skill-board">
+        <FaNodeJs id="skill-icon"/>
+          <Skill text="NodeJs" />
+        </div>
+
+        <div className="skill-board">
+        <SiMongodb id="skill-icon"/>
+          <Skill text="MongoDB" />
         </div>
       </div>
     </section>
