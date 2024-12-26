@@ -16,10 +16,10 @@ function Projects() {
       link: "https://sgnhyperion.github.io/MineSweeper/",
     },
     {
-      title: "Social App",
-      description: "A social app for connecting with people.",
+      title: "TalkSpace",
+      description: "A real-time chatting application",
       image: "https://media.licdn.com/dms/image/D5612AQGWFgfL-CAOPQ/article-cover_image-shrink_720_1280/0/1713469794627?e=2147483647&v=beta&t=3U6uc7SAzRatjUZvCVt3n4mSFnyvriY5AsrPUE3EOX0",
-      link: "https://sgnhyperion.github.io/Scaler_social/",
+      link: "https://talkspace-zjuw.onrender.com/",
     },
     {
       title: "Library Management System",
