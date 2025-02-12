@@ -20,10 +20,9 @@ function Contacts() {
             <div id="container">
                 <p>
                     {" "}
-                    <MdEmail id="contact-icon" /> hk755063@gmail.com
+                    <MdEmail id="contact-icon" /> dev.harshhkumar@gmail.com
                 </p>
                 <p>
-                    {" "}
                     <FaPhoneAlt id="contact-icon" /> 7033388505
                 </p>
             </div>

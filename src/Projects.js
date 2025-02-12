@@ -10,10 +10,10 @@ function Projects() {
       link: "https://github.com/sgnhyperion/ImageEditorproject",
     },
     {
-      title: "Mine Sweeper",
-      description: "A fun implementation of the classic Minesweeper game.",
-      image: "https://cdn.dribbble.com/userupload/12488481/file/original-caa3cce133f087293f8673eec3753f3f.jpeg?crop=0x347-1216x1259&resize=400x300&vertical=center",
-      link: "https://sgnhyperion.github.io/MineSweeper/",
+      title: "IMF_Phoenix",
+      description: "A secure REST API for managing gadgets",
+      image: "https://contentstatic.timesjobs.com/img/70139153/Master.jpg",
+      link: "https://github.com/sgnhyperion/IMF_Phoenix",
     },
     {
       title: "TalkSpace",
@@ -28,10 +28,10 @@ function Projects() {
       link: "https://github.com/sgnhyperion/LBMS",
     },
     {
-      title: "Map Tales",
-      description: "A map that tells stories where we can pin places and add notes, built in MERN.",
-      image: "https://imageio.forbes.com/blogs-images/trevornace/files/2015/11/beautiful-places-world-1200x900.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      link: "https://map-tales-frontend.vercel.app/",
+      title: "Product_Data_Enhancer",
+      description: "A project that scrapes product data from Myntra and enhances the scraped data using AI",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vYIZBbTOtWdQIf8ldTwVuh1EIXlkcmr-pQ&s",
+      link: "https://github.com/sgnhyperion/Product_Data_Enhancer",
     },
   ];
 
